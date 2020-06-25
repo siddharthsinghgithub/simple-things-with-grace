@@ -7,3 +7,13 @@
   else{
     cout<<"NO";
    }
+ ```
+ # find if a number is a power of two
+ ```
+  if( num & (num -1) ){
+    return true;
+  }
+  else{
+    return false;
+  }
+```
